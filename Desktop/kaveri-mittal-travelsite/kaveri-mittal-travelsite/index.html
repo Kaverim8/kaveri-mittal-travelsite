@@ -5,61 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travelsite</title>
-    <link rel="stylesheet" href="../kaveri-mittal-travelsite/css/global.css">
-    <link rel="stylesheet" href="../kaveri-mittal-travelsite/css/main.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <!-- header -->
     <header>
-        <div>
-            <h1>travel site</h1>
-            <ol>
-                <li><a href="../kaveri-mittal-travelsite/index.html">home</a></li>
-                <li><a href="../kaveri-mittal-travelsite/pages/hawai.html">hawaii</a></li>
-                <li><a href="../kaveri-mittal-travelsite/pages/iceland.html">iceland</a></li>
-                <li><a href="../kaveri-mittal-travelsite/pages/greece.html">greece</a></li>
-            </ol>
+        <div class="navigation">
+            <h4 class="navigation--navigation-heading"><a class="navigation--navigation-liststyle" href="../kaveri-mittal-travelsite/index.html">travel site</a></h4>
+            <ul class="navigation--navigation-menu">
+                <li class="navigation--navigation-list"><a class="navigation--navigation-liststyle" href="../kaveri-mittal-travelsite/index.html">home</a></li>
+                <li class="navigation--navigation-list"><a class="navigation--navigation-liststyle" href="../kaveri-mittal-travelsite/pages/hawai.html">hawaii</a></li>
+                <li class="navigation--navigation-list"><a class="navigation--navigation-liststyle" href="../kaveri-mittal-travelsite/pages/iceland.html">iceland</a></li>
+                <li class="navigation--navigation-list"><a class="navigation--navigation-liststyle" href="../kaveri-mittal-travelsite/pages/greece.html">greece</a></li>
+            </ul>
         </div>
     </header>
     <main>
         <!-- hero -->
-        <div>
-            <p>
-            travelling comes with endless discoveries
-            </p>
-            <p>
-            dontt let your dreams be just dreams.experience the world by booking a vacation with us now.
-            </p>
+        <div class="hero">
+            <section class="hero--hero-section">
+                <h1 class="hero--hero-heading">
+                travelling comes with endless discoveries
+                </h1>
+                <p class="hero--hero-subheading">
+                Dont't let your dreams be just dreams.Experience the world by booking a vacation with us now.
+                </p>
+                <input type="button" value="get started" class="get-started">
+            </section>
+            <section class="hero--hero-section"> 
+                <img class="image" src="./assets/hero.png" alt="globe">
+            </section>
         </div>
         <!-- recommendation cards -->
-        <div>
-            <h2>recommendations</h2>
-            <p>hawaii</p>
-            <p>iceland</p>
-            <p>greece</p>
-        </div>
+        <div class="recommendations">
+            <h2 class="recommendations--recommendations-heading">recommendations</h2>
+            <div class="recommendations--recommendations-places">
+                <section class="recommendations--recommendations-list"><p><a class="recommendations--recommendations-destinations" href="./pages/hawai.html">hawaii</a></p></section>
+                <section class="recommendations--recommendations-list"><p><a class="recommendations--recommendations-destinations" href="./pages/iceland.html">iceland</a></p></section>
+                <section class="recommendations--recommendations-list"><p><a class="recommendations--recommendations-destinations" href="./pages/greece.html">greece</a></p></section>
+            <!-- <p><a class="recommendations--recommendations-destinations" href="./pages/iceland.html"> <img src="./assets/iceland.jpg" alt="iceland">iceland</a></p>
+            <p><a class="recommendations--recommendations-destinations" href="./pages/greece.html"> <img src="./assets/greece.jpg" alt="greece">greece</a></p> -->
+            </div>
+    </div>
     </main>
     <!-- footer -->
-    <footer>
-        <div>
-            <h3>contact</h3>
-            <p>email</p>
-            <p>info@travelsite.com</p>
+    <footer class="footer">
+        <div class="footer--footer-content">
+            <h3 class="heading">contact</h3>
+            <p class="heading--heading-details">email</p>
+            <p class="heading--heading-details">info@travelsite.com</p>
         </div>
-        <div>
-            <h3>hours</h3>
-            <p>monday-friday</p>
+        <div class="footer--footer-content">
+            <h3 class="heading">hours</h3>
+        <section class="section">
+            <div class="timmings">
+                <p>monday-friday</p>
             <p>9:00am - 5:00pm</p>
-            <p>saturday</p>
+            </div>
+            <div class="timmings">
+                <p>saturday</p>
             <p>10:00am - 4:00pm</p>
-            <p>sunday</p>
-            <p>closed</p>
+            </div>
+            <div class="timmings">
+                <p>sunday</p>
+                <p>closed</p>
+            </div>
+        </section> 
         </div>
-        <div>
-            <h3>social</h3>
-            <a href="https://www.instagram.com/"><img src="../assets/icons/icon-instagram.png" alt="instagram"></a>
-            <a href="https://www.facebook.com/"><img src="../assets/icons/icon-facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com/"><img src="../assets/icons/icon-twitter.png" alt="twitter"></a>
+        <div class="footer--footer-content">
+            <h3 class="heading">social</h3>
+            <a href="https://www.instagram.com/"><img src="./assets/icon-instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/"><img src="./assets/icon-facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/"><img src="./assets/icon-twitter.png" alt="twitter"></a>
         </div>
     </footer>
 </body>
