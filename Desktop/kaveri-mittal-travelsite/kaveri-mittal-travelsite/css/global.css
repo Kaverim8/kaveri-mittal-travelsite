@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    background-color: #FFFFFF;
+    color: #335576;
+}
+.navigation--navigation-heading {
+    padding-left: 2rem;
+}
+
+/* for li */
+.navigation--navigation-list {
+    list-style-type: none;
+    display:inline-flex;
+    justify-content: space-around;
+    padding-right: .5rem;
+}
+/* for a tag */
+.navigation--navigation-liststyle {
+    text-decoration: none;
+    color: #335576;
+} 
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    color: #335576;
+    background-color:#FEFAF5 ;
+}
+.section {
+    display: flex;
+
+}
+/* .heading {
+    color: #335576;
+    
+}
+.heading--heading-details {
+    color: #DB7A4E;
+    text-transform: capitalize;
+} */
