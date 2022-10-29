@@ -3,33 +3,35 @@
     display: flex;
     flex-direction: row;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 00px;
     background-color:#FEFAF5;
     color: #335576;
 }
-.hero--hero-section {
+.hero__section {
     padding: 30px;
 }
-
 .image {
     max-width: 550px;
     min-width: 240px;
     max-height: 550px;
     min-height: 240px;
 }
-.hero--hero-heading {
+.hero__heading {
     text-transform: capitalize;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem ;
-    font-size: 30px;
+    font-size: 34px;
     margin: 0px;
     text-align: left;
     width: 550px;
 }
-.hero--hero-subheading {
+.hero__subheading {
     width: 500px;
+    margin: 0px;
+    margin-bottom: 1.5rem;
+    margin-right: 0px;
+    font-size: small;
 }
 .get-started {
     color: white;
@@ -46,7 +48,7 @@
     flex-direction: column;
 }
 /* heading */
-.recommendations--recommendations-heading{
+.recommendations__heading{
     text-transform: capitalize;
     color: #335576;
     padding-left: 50px;
@@ -55,19 +57,18 @@
 }
 
 /* cards */
-.recommendations--recommendations-places {
+.recommendations__places {
     display: flex;
     justify-content: space-around;
     align-content: center;
     /* border-radius: 5px;
     border: 1px solid black; */
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-top: 0rem;
+    width: 75%;
+    margin: auto;
     padding-bottom: 5rem;
 }
 /* section */
-.recommendations--recommendations-list{
+.recommendations__list{
     background-image: url(../assets/hawaii.jpg);
     background-size: 260px 360px;
     background-position: center;
@@ -79,7 +80,7 @@
     opacity: 1.2;
 }
 /* a tag */
-.recommendations--recommendations-destinations {
+.recommendations__destinations {
     text-decoration: none;
     color:white;
     text-transform: capitalize;
@@ -90,5 +91,10 @@
     padding:25px;
     height: 300px;
     font-size: 20px;
-
+}
+.recommendations__list--iceland {
+    background-image: url(../assets/iceland.jpg);
+}
+.recommendations__list--greece {
+    background-image: url(../assets/greece.jpg);
 }
