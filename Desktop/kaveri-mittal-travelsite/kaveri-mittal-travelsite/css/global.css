@@ -4,7 +4,8 @@ body {
     margin: 0px;
 }
 header {
-    position: sticky;
+    position: fixed;
+    z-index: 1;
     top: 0;
     margin: 0;
     width: 100%;
@@ -19,10 +20,6 @@ header {
     width: 80%;
     margin: auto;
 }
-.navigation__heading {
-    padding-left: 2rem;
-}
-
 /* for li */
 .navigation__list {
     list-style-type: none;
@@ -38,22 +35,34 @@ header {
     text-decoration: none;
     color: #335576;
 } 
-
 /* footer */
+footer {
+    background-color:#FEFAF5;
+}
 .footer {
     display: flex;
     justify-content: space-around;
     text-transform: capitalize;
     color: #335576;
-    background-color:#FEFAF5 ;
-    width: 1280px;
+    background-color:#FEFAF5;
+    width: 70%;
     margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .footer__content {
     position: relative;
+    right: 40px;
 }
-
-.heading__timmings {
+.footer__content--hours {
+    padding-left: 2rem;
+}
+.heading {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.heading__details-timmings {
     display: flex;
     position: relative;
 }
@@ -61,10 +70,14 @@ header {
     padding-right: 1rem;
 }
 .heading__details {
-    font-size: small;
+    font-size: smaller;
     color: #DB7A4E;
+    text-transform: uppercase;
 }
-.heading__info {
+.heading__details--time {
+    text-transform: uppercase;
+}
+.heading__details--info {
     text-transform: lowercase;
 }
 .heading__details-position {
@@ -75,14 +88,15 @@ header {
     height: 36px;
 }
 .heading_image-facebook {
-    width: 25px;
-    height: 50px
+    width: 16px;
+    height: 36px
 }
-.heading__social {
+.heading__details--social {
     display: flex;
     justify-content: space-between;
     width: 150px;
-    padding-top: 1.5rem;
+    position: absolute;
+    bottom: 12px;
 }
 
 

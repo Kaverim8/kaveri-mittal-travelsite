@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <!-- header class="navigation nav tag -->
+    <!-- header -->
     <header>
         <nav class="navigation">  
             <h4 class="navigation__heading"><a class="navigation__liststyle" href="../kaveri-mittal-travelsite/index.html">travel site</a></h4>
@@ -21,66 +21,67 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <!-- hero -->
         <div class="hero">
-            <section class="hero__section">
+        <div class="hero__section">
                 <h1 class="hero__heading">
                 travelling comes with endless discoveries
                 </h1>
                 <p class="hero__subheading">
                 Dont't let your dreams be just dreams.Experience the world by booking a vacation with us now.
                 </p>
-                <input type="button" value="get started" class="get-started">
-            </section>
-            <section class="hero__section"> 
-                <img class="image" src="./assets/hero.png" alt="globe">
-            </section>
+                <input type="button" value="Get started" class="get-started">
+            </div>
+        <div class="hero__section hero__section--image"> 
+            <a href="./index.html"><img class="image" src="./assets/hero.png" alt="globe"></a>
+        </div>
         </div>
     </main>
         <!-- recommendation cards -->
         <div class="recommendations">
             <h2 class="recommendations__heading">recommendations</h2>
             <div class="recommendations__places">
-                <section class="recommendations__list"><p><a class="recommendations__destinations" href="./pages/hawai.html">hawaii</a></p></section>
-                <section class="recommendations__list recommendations__list--iceland"><p><a class="recommendations__destinations" href="./pages/iceland.html">iceland</a></p></section>
-                <section class="recommendations__list recommendations__list--greece"><p><a class="recommendations__destinations" href="./pages/greece.html">greece</a></p></section>
+                <section class="recommendations__list"><h2><a class="recommendations__destinations" href="./pages/hawai.html">hawaii</a></h2></section>
+                <section class="recommendations__list recommendations__list--iceland"><h2><a class="recommendations__destinations" href="./pages/iceland.html">iceland</a></h2></section>
+                <section class="recommendations__list recommendations__list--greece"><h2><a class="recommendations__destinations" href="./pages/greece.html">greece</a></h2></section>
             </div>
     </div>
-   
     <!-- footer -->
-    <footer class="footer">
+    <footer>
+    <div class="footer footer__content--destination">
         <div class="footer__content">
-            <h3 class="heading">contact</h3>
+                <h3 class="heading">contact</h3>
             <div class="heading__details-position">
-            <p class="heading__details">email</p>
-            <p class="heading__info">info@travelsite.com</p>
+                <p class="heading__details">email</p>
+                <p class="heading__details--info">info@travelsite.com</p>
         </div>
         </div>
-        <div class="footer__content">
+        <div class="footer__content footer__content--hours">
             <h3 class="heading">hours</h3>
-        <section class="heading__timmings">
+        <div class="heading__details-timmings">
             <div class="timmings">
                 <p class="heading__details">monday-friday</p>
-                <p class="heading__info">9:00am - 5:00pm</p>
+                <p class="heading__details--time">9:00 am-5:00 pm</p>
             </div>
             <div class="timmings">
                 <p class="heading__details">saturday</p>
-                <p class="heading__info">10:00am - 4:00pm</p>
+                <p class="heading__details--time">10:00 am-4:00 pm</p>
             </div>
             <div class="timmings">
                 <p class="heading__details">sunday</p>
-                <p class="heading__info">closed</p>
+                <p>closed</p>
             </div>
-        </section> 
+        </div> 
         </div>
         <div class="footer__content">
-            <h3 class="heading">social</h3>
-            <div class="heading__social">
-            <a href="https://www.instagram.com/"><img class="heading_image"src="./assets/icon-instagram.png" alt="instagram"></a>
-            <a href="https://www.facebook.com/"><img  class="heading_image-facebook"src="./assets/icon-facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com/"><img class="heading_image" src="./assets/icon-twitter.png" alt="twitter"></a>
+                <h3 class="heading">social</h3>
+            <div class="heading__details--social">
+                <a href="https://www.instagram.com/"><img class="heading_image" src="./assets/icon-instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/"><img class="heading_image-facebook" src="./assets/icon-facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/"><img class="heading_image" src="./assets/icon-twitter.png" alt="twitter"></a>
         </div>
+    </div>
     </div>
     </footer>
 </body>

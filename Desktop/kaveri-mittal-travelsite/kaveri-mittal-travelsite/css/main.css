@@ -1,20 +1,32 @@
 /* hero section */
+.main {
+    background-color: #FEFAF5;
+    padding-top: 50px;
+    padding-bottom: 60px
+}
 .hero {
     display: flex;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color:#FEFAF5;
     color: #335576;
+    width: 85%;
+    position: relative;
+    margin: auto;
 }
 .hero__section {
     padding: 30px;
 }
+.hero__section--image {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    margin: auto;
+}
 .image {
-    max-width: 550px;
+    max-width: 425px;
     min-width: 240px;
-    max-height: 550px;
+    max-height: 425px;
     min-height: 240px;
 }
 .hero__heading {
@@ -24,7 +36,7 @@
     font-size: 34px;
     margin: 0px;
     text-align: left;
-    width: 550px;
+    width: 500px;
 }
 .hero__subheading {
     width: 500px;
@@ -35,7 +47,6 @@
 }
 .get-started {
     color: white;
-    text-transform: capitalize;
     background-color: #DB7A4E;
     width: 150px;
     padding: 10px;
@@ -52,17 +63,14 @@
     text-transform: capitalize;
     color: #335576;
     padding-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 40px;
 }
-
 /* cards */
 .recommendations__places {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    /* border-radius: 5px;
-    border: 1px solid black; */
     width: 75%;
     margin: auto;
     padding-bottom: 5rem;
@@ -76,8 +84,8 @@
     height: 360px;
     box-sizing:content-box;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px black ;
-    opacity: 1.2;
+    border: 1px solid black 1.2;
+    box-shadow: 0px 4px 4px black 1.2;
 }
 /* a tag */
 .recommendations__destinations {
